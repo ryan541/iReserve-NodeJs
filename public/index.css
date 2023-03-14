@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lucida Handwriting:ital,wght@1,400&display=swap');
+
+body {
+    margin: 0;
+    line-height: normal;
+    overflow: hidden;
+}
+
+.landingBg {
+    position: absolute;
+    top: 0.25px;
+    left: -16px;
+    width: 1432px;
+    height: 799.5px;
+    object-fit: cover;
+  }
+
+.blur {
+    background-color: black;
+    position: absolute;
+    opacity: .2;
+    z-index: 1;
+    height: 2000px;
+    width: 1600px;
+    z-index: 1;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease;
+    transition-delay: 0.2s;
+    z-index: 2;
+}
+
+.foodie {
+    font-size: 16rem;
+    color: antiquewhite;
+    font-family: lucida;
+    padding-bottom:0px;
+    margin:0px;
+}
+
+.tagline {
+    color: white;
+    font-size: 3rem;
+    padding-left: 8rem;
+    display:inline-block;
+    padding-top:0px;
+    margin:0px;
+}
+
+.home-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: #821111;
+    color: #fff;
+    border: none;
+    transition: all 1s ease;
+    transition-delay: 0.2s;
+    cursor: pointer;
+    margin-top: 2rem;
+    position: absolute;
+    right: 2rem;
+    z-index: 2;
+}
+
+.home-btn:hover{
+    background: white;
+    color: #000;
+    transition: background 2s, color 2s;
+}

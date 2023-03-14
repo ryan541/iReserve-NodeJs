@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lucida Handwriting:ital,wght@1,400&display=swap');
+
+body {
+    overflow: hidden;
+    /* position: fixed; */
+    margin: 0;
+    padding: 0;
+}
+
+.signUp-container {
+    color: #fff;
+    background: url(/Images/signUpBg.png);
+    width: 2864px;
+    height: 1599px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: fixed;
+    overflow-y: hidden;
+}
+
+.create-acc-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.create-account {
+    position: relative;
+    color: #fff;
+    font-size: 3rem;
+    width: 15%;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #000;
+    top: 6%;
+    left: 19%;
+    cursor: default;
+    z-index: 2;
+}
+
+.login-btn {
+    position: relative;
+    color: #000;
+    font-size: 2rem;
+    width: 20%;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #F6FD36;
+    top: 5%;
+    left: 16%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.login-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: background 2s, color 2s;
+}
+  
+label {
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+input[type="text"], input[type="password"], input[type="email"] {
+    position: relative;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 120%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    outline: 3px solid#F6FD36;
+}
+
+.signUp-btn {
+    color: #F6FD36;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    left: 15rem;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.signUp-btn:hover {
+    background: white;
+    color: #000;
+    transition: background 2s, color 2s;
+}
